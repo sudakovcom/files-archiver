@@ -142,7 +142,7 @@ void pack_lwz(const std::string &input_file, const std::string &output_file) {
         std::cout << "--Input file is being read...\n";
         char c;
         while (!file.eof()) {
-            file >> c;
+            file.get(c);
             input_text += c;
         }
         file.close();
@@ -209,7 +209,7 @@ void unpack_lwz(const std::string &input_file, const std::string &output_file) {
         std::cout << "--Input file is being read...\n";
         char c;
         while (!file.eof()) {
-            file >> c;
+            file.get(c);
             input_text += c;
         }
         file.close();
