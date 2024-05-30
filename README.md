@@ -1,6 +1,6 @@
 # My archiver
 
-An application for file commpression using Huffman encoding.
+An application for file commpression using RLE or LWZ encoding.
 
 # Instructions
 
