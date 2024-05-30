@@ -1,5 +1,7 @@
 # My archiver
 
+An application for file commpression using Huffman encoding.
+
 # Instructions
 
 ### 1-st parameter: "pack" or "unpack";
